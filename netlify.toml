@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  
+# Netlify will automatically apply the Next.js runtime integration
+# which handles SSR, image optimization, and routing correctly.
