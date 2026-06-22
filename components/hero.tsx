@@ -48,8 +48,8 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-3xl -rotate-3 transition-transform hover:rotate-0 duration-500" />
           <div className="relative w-full h-full rounded-3xl overflow-hidden border border-border glass shadow-2xl z-10">
             <Image
-              src="https://picsum.photos/seed/alexrivera/800/1000"
-              alt="Alex Rivera Portrait"
+              src="/images/HarshP5.jpeg"
+              alt="Hardik Limbachiya Portrait"
               fill
               className="object-cover"
               referrerPolicy="no-referrer"

@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
 
 const images = [
-  { id: 1, src: "https://picsum.photos/seed/shoot1/800/1200", alt: "On Set", span: "row-span-2" },
-  { id: 2, src: "https://picsum.photos/seed/shoot2/800/600", alt: "Travel Vlog", span: "row-span-1" },
-  { id: 3, src: "https://picsum.photos/seed/shoot3/800/600", alt: "Studio Setup", span: "row-span-1" },
-  { id: 4, src: "https://picsum.photos/seed/shoot4/800/600", alt: "Drone Shot", span: "row-span-1" },
-  { id: 5, src: "https://picsum.photos/seed/shoot5/800/600", alt: "Meeting Fans", span: "row-span-1" },
+  { id: 1, src: "/images/HarshP1.jpeg", alt: "Creator Portrait", span: "row-span-2" },
+  { id: 2, src: "/images/HarshP2.jpeg", alt: "Behind the Scenes", span: "row-span-1" },
+  { id: 3, src: "/images/channels4_profile.jpg", alt: "Channel Avatar", span: "row-span-1" },
+  { id: 4, src: "/images/HarshP4.jpeg", alt: "Travel Vlog", span: "row-span-1" },
+  { id: 5, src: "/images/HarshP5.jpeg", alt: "Studio Setup", span: "row-span-1" },
 ];
 
 export function Gallery() {
